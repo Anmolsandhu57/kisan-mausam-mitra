@@ -1,0 +1,9 @@
+{
+ "_note": "Verify eligibility, amounts and dates on official portals before use.",
+ "schemes":[
+  {"id":"pmfby","name_hi":"प्रधानमंत्री फसल बीमा योजना (PMFBY)","what_hi":"प्राकृतिक आपदा, कीट और रोग से फसल नुकसान पर बीमा","tip_hi":"फसल नुकसान की सूचना 72 घंटे के भीतर दें","link":"https://pmfby.gov.in"},
+  {"id":"pmkisan","name_hi":"पीएम-किसान","what_hi":"पात्र किसान परिवारों को सीधे बैंक खाते में आर्थिक सहायता","tip_hi":"e-KYC और बैंक खाता आधार से जुड़ा रखें","link":"https://pmkisan.gov.in"},
+  {"id":"kcc","name_hi":"किसान क्रेडिट कार्ड (KCC)","what_hi":"खेती के लिए कम ब्याज पर ऋण सुविधा","tip_hi":"नज़दीकी बैंक शाखा में आवेदन करें","link":"https://www.myscheme.gov.in"},
+  {"id":"kcc_call","name_hi":"किसान कॉल सेंटर","what_hi":"खेती से जुड़े सवालों पर निःशुल्क सलाह","tip_hi":"टोल-फ्री 1800-180-1551","link":"https://mkisan.gov.in"}
+ ]
+}

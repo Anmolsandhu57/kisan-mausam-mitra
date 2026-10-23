@@ -1,0 +1,10 @@
+{
+ "_note": "SAMPLE entries (institution names only). Add verified phone numbers/addresses from official sources before real use.",
+ "entries":[
+  {"type_hi":"कृषि विश्वविद्यालय","name":"CSK HPKV, पालमपुर","district":"kangra"},
+  {"type_hi":"बागवानी विश्वविद्यालय","name":"डॉ. वाई.एस. परमार UHF, नौणी","district":"solan"},
+  {"type_hi":"कृषि विज्ञान केंद्र (KVK)","name":"KVK - स्थानीय जिला केंद्र (जोड़ें)","district":"shimla"},
+  {"type_hi":"कृषि विभाग कार्यालय","name":"जिला कृषि कार्यालय (जोड़ें)","district":"mandi"},
+  {"type_hi":"मंडी/बाज़ार","name":"APMC मंडी (जोड़ें)","district":"kullu"}
+ ]
+}
