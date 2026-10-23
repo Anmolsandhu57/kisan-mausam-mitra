@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>किसान मौसम मित्र</title>
+<style>
+ :root{--bg:#f6fbf3;--card:#fff;--ink:#1d2b1a;--green:#2e7d32;--red:#c62828;--orange:#ef6c00;--line:#dfe9da}
+ @media (prefers-color-scheme:dark){:root{--bg:#121a11;--card:#1b261a;--ink:#eaf3e7;--line:#2c3b2a}}
+ body{margin:0;font-family:system-ui,"Noto Sans Devanagari",sans-serif;background:var(--bg);color:var(--ink)}
+ header{background:var(--green);color:#fff;padding:14px 16px;font-size:1.25rem;font-weight:700}
+ main{max-width:760px;margin:auto;padding:12px}
+ .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}
+ select,button{font-size:1rem;padding:10px;border-radius:8px;border:1px solid var(--line);width:100%;margin:4px 0}
+ button{background:var(--green);color:#fff;border:0}
+ .alert{padding:10px;border-radius:8px;margin:6px 0;color:#fff}.red{background:var(--red)}.orange{background:var(--orange)}
+ table{width:100%;border-collapse:collapse}td,th{padding:6px;border-bottom:1px solid var(--line);text-align:center}
+ h2{margin:0 0 6px;font-size:1.1rem}
+</style>
+</head>
+<body>
+<header>🌾 किसान मौसम मित्र</header>
+<main>
+ <div class="card"><h2>अपना जिला और फसल चुनें</h2>
+  <select id="district"></select><select id="crop"></select>
+  <button id="go">मौसम और सलाह देखें</button></div>
+ <div id="alerts"></div>
+ <div class="card" id="weather"></div>
+ <div class="card" id="guidance"></div>
+ <div class="card" id="diseases"></div>
+ <div class="card" id="schemes"></div>
+ <div class="card" id="directory"></div>
+</main>
+<script src="alerts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
