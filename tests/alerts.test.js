@@ -1,0 +1,10 @@
+const assert = require("assert");
+const { dailyAlerts } = require("../alerts.js");
+const w = require("../data/sample_weather.json");
+const a = dailyAlerts(w);
+const ids = a.map(x => x.id);
+assert(ids.includes("heavy_rain"), "42 mm rain should raise heavy_rain");
+assert(ids.includes("hail"), "code 95 + wind 35 should raise hail");
+assert(ids.includes("frost"), "-1C should raise frost");
+assert(!a.some(x => x.date === "2026-10-22"), "calm day should raise nothing");
+console.log("All alert tests passed:", a.length, "alerts");
