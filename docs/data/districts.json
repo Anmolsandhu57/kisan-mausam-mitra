@@ -1,8 +1,0 @@
-[
-  {"id":"shimla","name_en":"Shimla","name_hi":"शिमला","lat":31.1048,"lon":77.1734,"elevation_m":2200},
-  {"id":"kullu","name_en":"Kullu","name_hi":"कुल्लू","lat":31.9592,"lon":77.1089,"elevation_m":1280},
-  {"id":"mandi","name_en":"Mandi","name_hi":"मंडी","lat":31.7088,"lon":76.9320,"elevation_m":760},
-  {"id":"kangra","name_en":"Kangra","name_hi":"कांगड़ा","lat":32.0998,"lon":76.2691,"elevation_m":700},
-  {"id":"solan","name_en":"Solan","name_hi":"सोलन","lat":30.9045,"lon":77.0967,"elevation_m":1550},
-  {"id":"una","name_en":"Una","name_hi":"ऊना","lat":31.4685,"lon":76.2708,"elevation_m":350}
-]
